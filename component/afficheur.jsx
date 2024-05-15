@@ -17,10 +17,10 @@ export default function Afficheur() {
 
   return (
     <div className={style.main_counter}>
-      <h1>Kaamelott</h1>
+      <h1 className={style.text}>Kaamelott</h1>
       {data && <p className={style.p}>"{data.citation.citation}"</p>}
-      {data && <p><strong>{data.citation.infos.personnage}</strong></p>}
-      {data && <p><strong><i>{data.citation.infos.saison} - {data.citation.infos.episode}</i></strong></p>}
+      {data && <p className={style.text}><strong>{data.citation.infos.personnage}</strong></p>}
+      {data && <p className={style.text}><strong><i>{data.citation.infos.saison} - {data.citation.infos.episode}</i></strong></p>}
       <div className={style.button_set}>
       <button onClick={fetchData}>Encore !</button>
       </div>
