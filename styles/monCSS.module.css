@@ -18,10 +18,16 @@
     border: solid 1px rgb(96, 96, 96);
     border-radius: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    margin: 0 50px;
+    margin: 30px 50px;
     background-color: #FFFFFF;
     
 }
+
+/* .main_counter:hover{
+    background-image: url("../public/icegif-162.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .span_form{
     color: aqua;
