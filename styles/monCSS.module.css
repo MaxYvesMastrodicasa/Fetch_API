@@ -20,6 +20,7 @@
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     margin: 0 50px;
     background-color: #FFFFFF;
+    
 }
 
 .span_form{
@@ -109,10 +110,12 @@
 
 .ul{
     list-style: none;
+    color: black;
 }
 
 .p{
     overflow-y: scroll;
     width: 95%;
     height: 42%;
+    color: black;
 }
