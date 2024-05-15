@@ -13,7 +13,7 @@ export default function Home() {
     <>
     <main className={style.background}>
     <Afficheur/>
-
+    <Afficheur/>
     </main>
     </>
   )
